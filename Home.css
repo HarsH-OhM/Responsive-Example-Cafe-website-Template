@@ -1,0 +1,73 @@
+
+body {
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    height: 100%;
+   
+   
+    border-style: solid;
+      border-width: 15px;
+     
+      border-color: darkgoldenrod;
+  }
+  .main{
+    background-color: darkcyan;
+  }
+
+  .heading h1{
+      color: tomato;
+  }
+
+  h1,h2,h3,h4,p,a{
+      font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+
+  .container2-fluid{
+    background-color: goldenrod;
+    
+}
+.container2-fluid a{
+    background-color:black;
+    
+}
+
+    
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+   
+  }
+
+  #navbar{
+
+    background-color: darkgoldenrod;
+    
+
+  }
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+  
+  
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  
+  
+  footer {
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 15px;
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
